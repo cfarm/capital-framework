@@ -1,9 +1,9 @@
 {
-  "name": "cf-buttons",
-  "version": "2.5.0",
-  "description": "Capital Framework buttons",
-  "less": "src/cf-buttons.less",
-  "style": "cf-buttons.css",
+  "name": "cf-grid",
+  "version": "0.0.4",
+  "description": "Capital Framework grid",
+  "less": "src/cf-grid.less",
+  "style": "cf-grid.css",
   "scripts": {
     "//": "This is a convenience script so that if you run `npm test` from this dir",
     "//": "npm won't return  a 'no tests' error. Instead it'll check if you're in",
@@ -12,10 +12,11 @@
     "test": "case $(pwd) in */capital-framework/src/*) cd ../.. && npm test;; esac"
   },
   "dependencies": {
-    "cf-core": "^1.0.0",
-    "cf-icons": "^1.0.0"
+    "box-sizing-polyfill": "0.1.0",
+    "normalize-css": "^2.0.0",
+    "normalize-legacy-addon": "0.1.0"
   },
   "keywords": [
-    "buttons"
+    "grid"
   ]
 }

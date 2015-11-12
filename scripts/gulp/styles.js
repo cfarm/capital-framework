@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 
 // Compile the master capital-framework.less file.
 gulp.task( 'styles:cf', function() {
-  return gulp.src('./capital-framework.less')
+  return gulp.src('./src/capital-framework.less')
     .pipe($.less({
       plugins: [new importPlugin({prefix: '../node_modules/'})]
     }))
@@ -22,7 +22,7 @@ gulp.task( 'styles:cf', function() {
 // Compile all the individual component files so that users can `npm install`
 // a single component if they desire.
 gulp.task( 'styles:components', function() {
-  return gulp.src('./components/' + (component || '*') + '/src/*.less')
+  return gulp.src('./src/' + (component || '*') + '/src/*.less')
     .pipe($.ignore.exclude(function(vf) {
       // Exclude Less files that don't share the same name as the directory
       // they're in. This filters out things like cf-vars.less but still

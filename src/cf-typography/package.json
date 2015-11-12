@@ -1,10 +1,9 @@
 {
-  "name": "cf-forms",
-  "version": "2.0.0",
-  "description": "Capital Framework form fields",
-  "main": "cf-forms.js",
-  "less": "src/cf-forms.less",
-  "style": "cf-forms.css",
+  "name": "cf-typography",
+  "version": "0.0.4",
+  "description": "Capital Framework typography",
+  "less": "src/cf-typography.less",
+  "style": "cf-typography.css",
   "scripts": {
     "//": "This is a convenience script so that if you run `npm test` from this dir",
     "//": "npm won't return  a 'no tests' error. Instead it'll check if you're in",
@@ -14,11 +13,9 @@
   },
   "dependencies": {
     "cf-core": "^2.0.0",
-    "cf-buttons": "^2.0.0",
-    "cf-grid": "^2.0.0",
     "cf-icons": "^2.0.0"
   },
   "keywords": [
-    "forms"
+    "typography"
   ]
 }

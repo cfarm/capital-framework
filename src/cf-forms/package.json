@@ -1,10 +1,10 @@
 {
-  "name": "cf-expandables",
-  "version": "2.0.0",
-  "description": "Capital Framework expandables",
-  "main": "cf-expandables.js",
-  "less": "src/cf-expandables.less",
-  "style": "cf-expandables.css",
+  "name": "cf-forms",
+  "version": "0.0.4",
+  "description": "Capital Framework form fields",
+  "main": "cf-forms.js",
+  "less": "src/cf-forms.less",
+  "style": "cf-forms.css",
   "scripts": {
     "//": "This is a convenience script so that if you run `npm test` from this dir",
     "//": "npm won't return  a 'no tests' error. Instead it'll check if you're in",
@@ -14,12 +14,11 @@
   },
   "dependencies": {
     "cf-core": "^2.0.0",
-    "cf-icons": "^2.0.0",
-    "jquery": "~1.11.0",
-    "jquery.easing": "~1.3.0"
+    "cf-buttons": "^2.0.0",
+    "cf-grid": "^2.0.0",
+    "cf-icons": "^2.0.0"
   },
   "keywords": [
-    "expandable",
-    "jquery"
+    "forms"
   ]
 }
