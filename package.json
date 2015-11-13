@@ -27,6 +27,7 @@
     "test": "echo 'bleeeeeh'"
   },
   "devDependencies": {
+    "async":  "^1.5.0",
     "bluebird": "^3.0.5",
     "chalk": "^1.1.1",
     "child-process-promise": "^1.1.0",
